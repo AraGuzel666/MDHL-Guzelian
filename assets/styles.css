@@ -110,3 +110,32 @@ p {
 .activo {
     background-color: rgb(96, 158, 4);
 }
+
+tbody tr:nth-child(odd) {
+    background-color: #030029;
+    padding: 25px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #001cb9;
+    padding: 25px;
+  }
+  
+  tbody tr td {
+    padding: 20px;
+
+  }
+  
+  table {
+    background-color: #0d0085;
+    color: #fff;
+    padding: 25px;
+
+
+    display: inline-block;
+    position: absolute;
+    top: 550px;
+    left: 20%;
+  }
+
+ 

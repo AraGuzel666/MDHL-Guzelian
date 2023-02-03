@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 125px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('img/design1_image2.jpg');
+    background-size: cover;
+    background-color: black;
+}
+header h1 {
+    text-align: center;
+    font-size:75px;
+    font-style: bold;
+    color: #fff;
+}
+aside {
+    flex: 30px;
+
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+aside .img {
+    border: 1px solid black;
+    border-radius: 80%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #686565;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+section {
+    flex: 50%;
+    padding: 20px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    margin: 15px;
+    font-size: 25px;
+    font-style: italic;
+}
+.lista p {
+    margin: 15px;
+}
+
+.lista ol li, .lista dt{
+    margin: 30px;
+}
+.info { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    margin: 15px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+footer {
+    flex: 30px;
+    border: 1px solid #000;
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

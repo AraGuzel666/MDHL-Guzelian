@@ -14,28 +14,27 @@
     
     
     <link rel="shortcut icon" href="./assets/img/Logo-Mighty-ducks-01.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/style-flexbox.css">
 </head>
 <body>
     <header>
         <h1>Mighty Ducks Hockey League</h1>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li class="activo"><a href="./about.html">About </a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="banner">
-        </div>
-        <div class="titulo">
-            <h2>About</h2>
-        </div>
     </header>
-
-    <main>
-        <section class="contenedor">
-            <img src="./assets/img/Logo_Mighty_ducks-01.png" alt="Logo de Hockey" width="250" height="250">
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./game-info.html">Game-Info</a>
+        <a href="./rules.html">Rules</a>
+    </nav>
+    <div class="row">
+        <aside>
+            <h2>About</h2>
+            <div class="img">
+                <img src="./assets/img/Logo_Mighty_ducks-01.png" alt="Logo de Hockey" width="200" height="200">
+            </div>
+        </aside>
+        <section>
             <dl class="lista">
                 <dt><b>Mision</b></dt>
                 <dd>To support young athletes living Chicago's northside neighborhood, who have an interest in
@@ -55,9 +54,15 @@
                 </dd>
                 <br>
             </dl>
-            
         </section>
-    </main>
-    <footer>Web hecha por Aram Guzelian - 2023</footer>
+        <div class="img">
+            <img src="assets/img/hockey  1.jpg" alt="Hockey 1" width="300" height="300">
+        </div>
+    </div>
+    <footer>
+        <p>
+            Aram Guzelian - 2023
+        </p>
+    </footer>
 </body>
 </html>
