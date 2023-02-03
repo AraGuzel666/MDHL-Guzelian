@@ -40,6 +40,7 @@ aside .img {
     border-radius: 80%;
     background-color: rgba(0, 0, 0, 0.8);
 
+    
 }
 
 nav{
@@ -96,6 +97,12 @@ section {
     font-size: 25px;
     font-style: italic;
 }
+.img2 img{
+    height: 450px;
+}
+.activo {
+    background-color: #686565;
+}
 
 footer {
     flex: 30px;
@@ -113,3 +120,12 @@ footer {
     justify-content: center;
 }
 
+@media screen and (max-width: 700px) {
+    nav, .row {
+        flex-direction: column;
+        text-align: center;
+    }
+    aside .img{
+        margin: 40px;
+    }
+}
