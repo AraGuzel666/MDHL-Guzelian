@@ -120,6 +120,70 @@ footer {
     justify-content: center;
 }
 
+.botones {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.botones button {
+    border-radius: 15px 0px;
+    padding: 5px;
+    margin: 15px;
+    height: 5vh;
+    width: 10vh;
+}
+
+.botones button:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+form fieldset{
+    padding: 25px;
+    margin: 5px;
+    text-align: center;
+    background-color: #ccc;
+
+}
+
+form fieldset input {
+    margin: 5px;
+    border-radius: 25px 0px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+}
+.table-section {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.table-data {
+    width: 50%;
+    height: 600px;
+    margin: 15px;
+}
+
+.contenedor-mapas {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-mapa {
+    height: 500px;
+    width: 50%;
+    border: 2px solid #000;
+    margin: 15px;
+}
+
+
 @media screen and (max-width: 700px) {
     nav, .row {
         flex-direction: column;
@@ -127,5 +191,18 @@ footer {
     }
     aside .img{
         margin: 40px;
+    }
+    .gender div {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .table-data {
+        width: 100%;
+        height: 600px;
+        margin: 15px;
+    }
+    .item-mapa {
+        width: 100%;
     }
 }
